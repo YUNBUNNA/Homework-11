@@ -438,6 +438,10 @@ footer p span a{
 
 /* Ipad Pro: 991px */
 @media (max-width: 991px) {
+    .flex-sm-column-reverse {
+        flex-direction: column-reverse;
+    }
+
     .col-12 {
         width: 100%;
         padding-inline: 0px !important;
